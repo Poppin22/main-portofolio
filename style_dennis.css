@@ -1,0 +1,285 @@
+*, html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #222629;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+/* Navbar */
+.container-navbar {
+    /* background-color: #86C232; */
+    width: 100%;
+    height: 10%;
+    margin-top: 3vh;
+    display: flex;
+}
+.nav-content{
+    display: flex;
+}
+.pp{
+    border-radius: 50%;
+    margin-left: 10vh;
+
+}
+.ul-navbar {
+    /* background-color: aqua; */
+    display: flex;
+    margin-top: 1%;
+    padding-left: 83vh;
+}
+.li-navbar {
+    list-style-type: none;
+    margin-right: 100px;
+
+}
+.a-navbar:hover{
+    color: grey;
+    transition-duration: 0.6s;
+
+}
+.a-navbar {
+    color: #86C232;
+    text-decoration: none;
+
+}
+.name{
+    /* background-color: aqua; */
+    color: white;
+    font-size: 20px;
+    /* padding-top: 4vh; */
+    /* margin-left: 20vh ; */
+    width: 200px;
+    padding-top: 3vh;
+    margin-left: 5vh;
+
+}
+
+/* Content Home */
+.content-home{
+    justify-content: right;
+    height: 80vh;
+    color: white;
+}
+.maskot{
+    float: right;
+
+}
+.branding{
+    height: 480px;
+    padding-right: 90px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.personal-branding{
+    height: 80vh;
+
+}
+.heading-text-1{
+    text-align: left;
+    font-size: 45px;
+    padding-left: 10vh;
+    padding-top: 1vh;
+}
+.heading-text-3{
+    text-align: left;
+    font-size: 20px;
+    padding-top: 29vh;
+    padding-left: 10vh;
+    font-style: italic;
+    font-weight: 10;
+}
+.branding-text{
+    padding-left: 10vh;
+    padding-top: 1vh;
+}
+.button{
+    margin-left: 10vh;
+    margin-top: 5vh;
+    margin-right: 185vh;
+    padding-left: 5vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-right: 3vh;
+    background-color: #86C232;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: #222629;
+    transition-duration: 1s;
+}
+.contact-now{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.contact-now:hover{
+    color: #86C232;
+    transition-duration: .2s;
+}
+
+/* Content Portofolio */
+.content-portofolio{
+    margin-top: 80px ;
+}
+.h2-project{
+    width: 100%;
+    text-align: center;
+    color: white;
+    
+}
+.card{
+    /* background-color: aquamarine; */
+    float: left;
+    /* margin-left: 10vh; */
+    /* box-shadow: 2px 3px 8px 0px rgb(238, 76, 76); */
+    transition: 0.3s;
+    width: 90%;
+    height: 50%;
+    margin-top: 50px;
+    margin-left: 10vh;
+    display: flex;
+}
+.card:hover {
+    box-shadow: 0 0px 16px 0 rgb(255, 255, 255);
+}  
+.card-container{
+    color: white;
+    float: right;
+    padding: 2px 16px;
+    /* background-color: white; */
+    /* margin-top: 18vh;
+    margin-bottom: 10vh;
+    margin-right: 40vh; */
+    margin-left: 5vh;
+    /* width: 300px; */
+}
+.img-1{
+    width: 50%;
+    /* margin-left: 10vh; */
+}
+.text-1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 110px;
+}
+.text-persuasif{
+    color: white;
+    font-style: normal;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 45px;
+    margin-top: 240vh;
+}
+.button-2{
+    width: 11%;
+    height: 8%;
+    margin-top: 5vh;
+    margin-bottom: 80vh;
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color: #86C232;
+    border-radius: 10px;
+    
+}
+.button-content{
+    padding-top: 17px;
+    text-align: center;
+}
+.h3-project{
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 70vh;
+}
+.skills{
+    width: 100%;
+    height: 50%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+}
+.skill-card{
+    width: 16%;
+    height: 50%;
+    /* background-color: #86C232; */
+    text-align: center;
+}
+.p-skills{
+    font-size: 25px;
+    margin-top: 2vh;
+    color: white;
+
+
+/* Testimonials */
+}
+.testimonials{
+    color: fff;
+    text-align: center;
+    margin: 20vh 0;
+}
+.testimonial{
+    color: black;
+    padding: 30px;
+    background-color: fff;
+    border-radius: 20px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 30px 0;
+
+}
+.client-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.full-name{
+    font-size: 25px;
+    margin: 10px;
+}
+.stars{
+    color: #86C232;
+    margin: 10px 0;
+}
+
+/* Footer */
+.footer{
+    background-color: #86C232;
+    color: fff;
+    align-items:  center;
+    display: flex;
+    width: 100%;
+    height: 10%;
+}
+.nama-footer{
+    margin-left: 20px;
+}
+.copyright{
+    text-align: center;
+    /* background-color: aqua; */
+    margin-left: 32%;
+    width: 250px;
+
+}
+.sosmed{
+    margin-left: 27%;
+}
+.sosmed img{
+    margin-left: 15px;
+    width: 35px;
+    height: 35px;
+    /* background-color: white; */
+}
